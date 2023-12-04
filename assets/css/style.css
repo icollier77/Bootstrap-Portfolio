@@ -132,7 +132,7 @@ body {
     color: var(--highlight-font-color);
     font-size: 1.5em;
     text-decoration: none;
-    padding: 1px auto;
+    padding: 1px;
     margin: auto;
 }
 
