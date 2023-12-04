@@ -1,20 +1,20 @@
 html {
     /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     scroll-behavior: smooth;
 }
 
 body {
-    height: 100%;
-    /* width: 100vw; */
-    width: 100%
-    margin: 0;
-    background: linear-gradient(to bottom, var(--main-bk-color), var(--secondary-bk-color));
+    /* height: 100%; */
+    width: 100vw;
+    /* width: 100% */
+    /* margin: 0; */
+    /* background: linear-gradient(to bottom, var(--main-bk-color), var(--secondary-bk-color)); */
 }
 
  /* Collapse padding and border for all elements */
  * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* Website colour palette */
@@ -32,40 +32,43 @@ body {
 
 /* set content highlight color and background */
 ::selection {
-    background-color: var(--highlight-bk-color);
-    color: var(--highlight-font-color);
+    /* background-color: var(--highlight-bk-color); */
+    /* color: var(--highlight-font-color); */
 }
 
 /* Set the body colors and font */
 body {
-    color: var(--main-font-color);
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.75rem;
-    line-height: 1.5;
+    /* color: var(--main-font-color); */
+    /* font-family: 'Work Sans', sans-serif; */
+    /* font-size: 1.75rem; */
+    /* line-height: 1.5; */
 }
 
 /* Typography */
 h1,
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
 }
 
 h3 {
     /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Poppins', sa  ns-serif;;
-    font-size: 1.2em;
+    /* font-family: 'Poppins', sa  ns-serif;; */
+    /* font-size: 1.2em; */
 }
 
 h4 {
-    font-family: 'Source Code Pro', sans-serif;
+    /* font-family: 'Source Code Pro', sans-serif; */
 }
 
 h5 {
-    font-family:'Courier New', Courier, monospace;
+    /* font-family:'Courier New', Courier, monospace; */
 }
 
 
-
+/* show section borders for editing purposes DELETE later */
+.section {
+    border: 1px dashed magenta;
+}
 
 
 
@@ -102,6 +105,8 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
   * Jumbotron copy */
@@ -118,5 +123,8 @@ text-align: center;
 }
 
 .skills {
-    color: var(--main-bk-color);
+    /* color: var(--main-bk-color); */
+    color: var(--main-font-color);
+    /* background-color: var(--main-bk-color); */
+    background-color: var(--highlight-font-color);
 }

@@ -28,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#Portfolio">Portfolio</a>
                         </li>
@@ -49,11 +49,10 @@
 
         <!-- HERO SECTION -->
         <!-- a jumbotron with my picture, name and motto -->
-        <div class="container">
-            <div class="p-5 mb-4 bg-body-tertiary rounded-3 darkSphere">
+            <div class="mb-4 darkSphere">
                 <div class="container">
                 <!-- my photo -->
-                <div class="row">
+                <div class="row mt-5">
                     <div class="card rounded-circle mx-0 mt-5" style="width: 18rem">
                         <img class="card-img rounded-circle" src="assets/images/my-photo-2.png">
                     </div>
@@ -64,13 +63,23 @@
                 </div>
                 </div>
             </div>
-        </div>
         <!-- End jumbotron -->
+
+        <!-- ABOUT ME section -->
+        <div class="container section">
+            <h2>About Me</h2>
+            <p id="about-main">After 10+ years in the financial industry and a stint in sustainable fashion entrepreneurship, I am diving into the world of tech and learning programming. Currently I am taking a Front-End Web Development Bootcamp.</p>
+            <br>
+            <p id="about-addl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas quo voluptatibus provident veritatis itaque, ipsum quam iure ullam eius, totam omnis, laborum iusto dolorem sit aliquam et vel expedita!
+            Aut perspiciatis excepturi rem tempora sapiente minima. Cupiditate illo est adipisci assumenda libero provident, aspernatur ab corporis molestiae quae illum repellendus, tenetur culpa esse facilis aliquid necessitatibus itaque quis dolorem.</p>
+            <!-- <p>add second paragraph</p> -->
+        </div>
+        <!-- end About Me -->
 
         <!-- WORK SECTION -->
         <!-- displays in grid, a card for each project, brief description, link -->
-        <div class="container" id="portfolio">
-            <h2 class="text-center p-5 mb-3">My Portfolio</h2>
+        <div class="container section" id="portfolio">
+            <h2 class="text-center p-5 mb-3">Portfolio</h2>
             <div class="row gap-lg-0 justify-content-center align-item-center">
                 <!-- Project 1 -->
                 <div class="col col-lg-4">
@@ -141,42 +150,34 @@
 
 
         <!-- SKILLS SECTION -->
-        <div class="container justify-content-center" style="width: 60%">
+        <div class="container justify-content-center section" style="width: 60%">
             <h2>My Skills</h2>
-                <div class="badge bg-light skills">HTML</div>
-                <div class="badge bg-light skills">CSS</div>
-                <div class="badge bg-light skills">JavaScript</div>
-                <div class="badge bg-light skills">Python</div>
-                <div class="badge bg-light skills">jQuery</div>
-                <div class="badge bg-light skills">Boostrap</div>
-                <div class="badge bg-light skills">Node.js</div>
-                <div class="badge bg-light skills">React.js</div>
-                <div class="badge bg-light skills">Netlify</div>
-                <div class="badge bg-light skills">RESTful APIs</div>
-                <div class="badge bg-light skills">UX/UI</div>
-                <div class="badge bg-light skills">Information Architecture</div>
-                <div class="badge bg-light skills">DOM</div>
-                <div class="badge bg-light skills">GitHub</div>
-                <div class="badge bg-light skills">VS Code</div>
-                <div class="badge bg-light skills">Pair Programming</div>
-                <div class="badge bg-light skills">Web-based Applications</div>
+                <div class="badge skills">HTML</div>
+                <div class="badge skills">CSS</div>
+                <div class="badge  skills">JavaScript</div>
+                <div class="badge  skills">Python</div>
+                <div class="badge  skills">jQuery</div>
+                <div class="badge  skills">Boostrap</div>
+                <div class="badge  skills">Node.js</div>
+                <div class="badge  skills">React.js</div>
+                <div class="badge  skills">Netlify</div>
+                <div class="badge  skills">RESTful APIs</div>
+                <div class="badge  skills">UX/UI</div>
+                <div class="badge  skills">Information Architecture</div>
+                <div class="badge  skills">DOM</div>
+                <div class="badge  skills">GitHub</div>
+                <div class="badge skills">VS Code</div>
+                <div class="badge skills">Pair Programming</div>
+                <div class="badge skills">Web-based Applications</div>
+                <div class="badge skills">Figma</div>
+                <div class="badge skills">Font Awesome</div>
         </div>
         <!-- end Skills -->
 
 
 
-        <!-- ABOUT ME section -->
-        <div class="container">
-            <h2>About Me</h2>
-            <p id="about-main">After 10+ years in the financial industry and a stint in sustainable fashion entrepreneurship, I am diving into the world of tech and learning programming. Currently I am taking a Front-End Web Development Bootcamp.</p>
-            <br>
-            <p id="about-addl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas quo voluptatibus provident veritatis itaque, ipsum quam iure ullam eius, totam omnis, laborum iusto dolorem sit aliquam et vel expedita!
-            Aut perspiciatis excepturi rem tempora sapiente minima. Cupiditate illo est adipisci assumenda libero provident, aspernatur ab corporis molestiae quae illum repellendus, tenetur culpa esse facilis aliquid necessitatibus itaque quis dolorem.</p>
-            <!-- <p>add second paragraph</p> -->
-        </div>
-
-        <!-- end About Me -->
-        <div class="container">
+        
+        <div class="container section">
             <h2>Contact</h2>
             <ul class="contact-links" id="contactText">
                 <li><a href="mailto:inessa.collier@gmail.com" target="_blank">Email</a></li>
@@ -201,7 +202,9 @@
 
         <!-- FOOTER SECTION -->
         <footer>
-            <h5>&copy; Inessa Collier 2023</h5>
+            <div class="container section">
+                <h5>&copy; Inessa Collier 2023</h5>
+            </div>
         </footer>
         
         <!-- Popper.js, then Bootstrap JS -->
