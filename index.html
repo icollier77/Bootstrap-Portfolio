@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
         <title>Inessa Collier portfolio</title>
+        <!-- reset css -->
+        <link rel="stylesheet" href="./starter/css/reset.css">
         <!-- Bootstrap stylesheet -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <!-- Font Awesome link -->
@@ -75,7 +77,8 @@
                 <p id="about-main">After 10+ years in the financial industry and a stint in sustainable fashion entrepreneurship, I am diving into the world of tech and learning programming. Currently I am taking a Front-End Web Development Bootcamp.</p>
                 </div>
             <!-- LEARN MORE toggle section -->
-            <div class="container text-center">
+            <!-- had to block out as it does not work with JS for Bootstrap 4, which I need to solve the hamburger issue -->
+            <!-- <div class="container text-center">
                 <button class="btn btn-lg btn-outline-dark" data-bs-toggle="collapse" data-bs-target=".row" aria-expanded="false" aria-controls="row">Learn More</button>
                 <div class="row collapse my-3 justify-content-center" id="row">
                     <div class="col col-sm-12 col-md-8" >
@@ -83,10 +86,9 @@
                     <p id="about-addl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas quo voluptatibus provident veritatis itaque, ipsum quam iure ullam eius, totam omnis, laborum iusto dolorem sit aliquam et vel expedita!
                         Aut perspiciatis excepturi rem tempora sapiente minima. Cupiditate illo est adipisci assumenda libero provident, aspernatur ab corporis molestiae quae illum repellendus, tenetur culpa esse facilis aliquid necessitatibus itaque quis dolorem.</p>
                     <a class="btn btn-custom btn-lg" type="button" href="mailto:inessa.collier@gmail.com" target="_blank">Contact me</a>
-
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- end Learn More section -->
         </div>
         <!-- end About Me -->
@@ -203,7 +205,7 @@
         <!-- CONTACT section -->
         <di class="container my-5 py-3" id="contact">
             <div class="row text-center">
-                <div class="col col-md-12 d-flex justify-content-evenly align-items-center">
+                <div class="col col-md-12 d-flex justify-content-evenly align-items-center mb-5">
                     <h2 class="mb-0">Contact me</h2>
                     <a class="btn btn-link btn-link-custom" href="mailto:inessa.collier@gmail.com" target="_blank">Email</a>
                     <a class="btn btn-link btn-link-custom" href="https://www.linkedin.com/in/inessacollier/" target="_blank">LinkedIn</a>
@@ -220,7 +222,7 @@
 
         <!-- FOOTER SECTION -->
         <footer>
-            <div class="container py-4 text-center">
+            <div class="container my-0 py-4 text-center">
                 <h5>&copy; Inessa Collier 2023</h5>
             </div>
         </footer>
@@ -251,7 +253,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <!-- Bootstrap JavaScript -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
 
 
 
