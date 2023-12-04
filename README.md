@@ -1,5 +1,4 @@
-# Bootstrap-Portfolio
-Recreation of my portfolio webpage using Bootstrap.
+
 ****
 <a name="readme-top"></a>
 
