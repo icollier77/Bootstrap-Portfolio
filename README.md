@@ -140,8 +140,6 @@ These colours are set as <i>global variables</i> in the css file.
 
 ### `Images`
 
-#### `Photos`
-
 I sourced free photos from [Unsplash][unsplash-url]. In addition to the images used on the previous webpage version, I used one more:
 
 - [ ] [cover image for Project 6][project6-url]
@@ -161,11 +159,11 @@ The development using Bootstrap was much faster and more streamlined compared to
 
 However, in some cases I turned to the web to find instructions on how to achieve certain outcomes.
 
-#### `Changing navbar colour on scrolling`
+#### `Change navbar colour on scrolling`
 
 I was not sure how to make my navbar background turn dark when scrolling down the page. This [video][navbar-scroll-url] was very helpful.
 
-#### `Aligning cards vertically`
+#### `Align cards vertically`
 
 Some of my project cards had longer description which caused the cards to have different heights. I found how to correct this [here][align-cards-url].
 
@@ -177,6 +175,10 @@ Although I had done this in my previous webpage, I still had to refresh my memor
 
 Finally, I thought it would be nice to have underlining effect on hover for the navigation links. This [video][navigation-underline-url] was very helpful.
 
+#### `Font Awesome icons`
+
+During my previous project I had sourced icons from the web but was not entirely happy with their look. For this project I used [Font Awesome][font-awesome-url] icons. However, instead of downloading the whole kit, I used [Font Awesome CDN][fa-cdn-url] and placed the corresponding link in the html head. Watching this [video][fa-icons-url] was very helpful in refreshing my memory on Font Awesome.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,10 +188,13 @@ Finally, I thought it would be nice to have underlining effect on hover for the 
 <!-- TAKEAWAYS -->
 ## `Project Takeaways`
 
-In general, Bootstrap prooved to be a valuable tool for creating website. I found that I could still customize my design to make it my own, but the in-built classes sped up the work significantly. The biggest challenge lies in learning the different classes and how to combine them to achieve the desired effect. For that, I found it very helpful to watch various YouTube tutorial and code along line by line.
+In general, [Bootstrap][bootstrap-url] proved to be a valuable tool for creating website. I found that I could still customize my design to make it my own, but the in-built classes sped up the work significantly. The biggest challenge lies in learning the different classes and how to combine them to achieve the desired effect. For that, I found it very helpful to watch various YouTube tutorial and code along line by line.
 <br>
 <br>
-I feel that I still need to master Figma and Font Awesome properly as well to really benefit from their features.
+I feel that I still need to master [Figma][figma-url] and [Font Awesome][font-awesome-url] properly as well to really benefit from their features.
+<br>
+<br>
+I still had to use one `media query` to switch between _text links_ and _icon links_ in the **Contact** section when the webpage is displayed on a small screen size.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -249,4 +254,7 @@ You can find the current portfolio webpage, its corresponding code, and the prev
 [cards-hover-url]: https://www.youtube.com/watch?v=KAHjf1Xj0SU
 [align-row-url]: https://stackoverflow.com/questions/50740468/how-to-align-the-header-and-button-on-the-same-line-using-bootstrap-4
 [navigation-underline-url]: https://www.youtube.com/watch?v=0uZ_ZnlEJ68
+[fa-icons-url]: https://www.youtube.com/watch?v=8-VRIEaIKqI
+[font-awesome-url]: https://fontawesome.com/
+[fa-cdn-url]: https://cdnjs.com/libraries/font-awesome 
 
