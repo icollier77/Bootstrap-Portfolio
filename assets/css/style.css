@@ -160,14 +160,17 @@ h5 {
 }
 
 .skills {
-    /* color: var(--main-bk-color); */
-    color: var(--main-font-color)05
-    /* background-color: var(--main-bk-color); */
-    background-color: var(--highlight-font-color);
+    color: var(--main-font-color);
+    font-size: 1em;
+    margin: 2px;
+    background-color: var(--hover-link);
 }
 
 
 /* Media query for xs screen size */
-@media only screen and (max-width: 576px) {
-
-}
+/* this code does not work */
+/* @media only screen and (max-width: 576px) { */
+    /* .colXS { */
+        /* width: 100vw; */
+    /* } */
+/* } */
