@@ -142,21 +142,19 @@ h5 {
     /* padding: 0; */
 }
 
-/* make cards increase on hover */
-.card {
+/* Project Card styling */
+.projectCard {
     transition: 0.3s;
+    border: 1px solid lightgrey;
 }
 
-.card:hover {
+.projectCard:hover {
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 1px 1px 20px grey;
 }
 
-.projectCard {
-    border: 1px solid lightgrey;
-}
-
+/* Skills styling */
 .skills {
     color: var(--main-font-color);
     font-size: 1em;
@@ -170,6 +168,7 @@ h5 {
     font-size: 1.5em;
     text-decoration: none;
     padding: 1px auto;
+    margin: auto;
 }
 
 .btn-link-custom:hover {
@@ -177,6 +176,12 @@ h5 {
     background-color: var(--highlight-font-color);
     color: var(--main-font-color);
     box-shadow: 1px 1px 10px var(--highlight-font-color);
+}
+
+/* Footer style */
+footer {
+    background-color: var(--secondary-bk-color);
+    color: var(--main-font-color)
 }
 
 /* Media query for xs screen size */
