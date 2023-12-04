@@ -100,7 +100,7 @@ My previously deployed portfolio webpage looked like this:
 
 ![Previous portfolio][previous-gif]
 
-You can see the previous portfolio webpage deployed [here]
+You can see the previous portfolio webpage deployed [here][previous-url].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,9 +119,11 @@ I used the following technologies when building this portfolio page:
 <!-- GETTING STARTED -->
 ## `Getting Started`
 
-<p>I did not create a new wireframe as this was about recreating an existing webpage. However, the layout slightly changed from the previous version as there was no requirement to make one card larger than the others. I leverage the flex layout in Bootstrap with rows and columns to arrange my project cards and make the layout responsive.</p>
+As this is a re-build project, many design aspects were described in the [previous webpage repo][previous-repo-url].
 
-However, in general, using [Figma][figma-url] is very beneficial when building a website is the service provides all information I would need to create and customize the layout: margins, padding, colours, fonts, etc, which I can copy directly as css code.
+<p>I also did not create a new wireframe as this was about recreating an existing webpage. However, the layout slightly changed from the previous version as there was no requirement to make one card larger than the others. I leveraged the flex layout in Bootstrap with rows and columns to arrange my project cards and make the layout responsive.</p>
+
+However, in general, using [Figma][figma-url] is very beneficial when building a website as the service provides all the information I would need to create the layout and customize the design: margins, padding, colours, fonts, etc, which I can copy directly as css code in Figma.
 
 ### `Colour Palette`
 
@@ -177,17 +179,19 @@ Finally, I thought it would be nice to have underlining effect on hover for the 
 
 #### `Font Awesome icons`
 
-During my previous project I had sourced icons from the web but was not entirely happy with their look. For this project I used [Font Awesome][font-awesome-url] icons. However, instead of downloading the whole kit, I used [Font Awesome CDN][fa-cdn-url] and placed the corresponding link in the html head. Watching this [video][fa-icons-url] was very helpful in refreshing my memory on Font Awesome.
+During my previous project I had sourced icons from the web but was not entirely happy with their look. For this project I used [Font Awesome][font-awesome-url] icons.
+
+Instead of downloading the whole kit, I used [Font Awesome CDN][fa-cdn-url] and placed the corresponding link in the html head. Watching this [video][fa-icons-url] was very helpful in refreshing my memory on Font Awesome.
 
 
 ### `Issues with JS script`
-I ran into a problem with the JavaScript which caused the hamburger navbar (on small screens) did not have a dropdown menu with the navigation links. 
+I ran into a problem with the JavaScript which caused the hamburger navbar (on small screens) not to have a dropdown menu with the navigation links.
 
-After making sure I have the latest link to Bootstrap 5 and correct JS links in the bottom of the file, and checking my html code, I contacted a learning assistant via AskBCS (ticket ask-293001). 
+After making sure I have the latest link to Bootstrap 5 and correct JS links in the bottom of the file, and checking my html code, I contacted a learning assistant via AskBCS (ticket ask-293001).
 
-The assistant checked my code on his machine and was able to identify that the JS links were not working as supposed to. S/he recommended that I replace the JS links for Bootstrap 5 with links for Bootstrap 4 and jQuery.
+The assistant checked my code on their machine and was able to identify that the JS links were not working as supposed to. They recommended that I replace the JS links for Bootstrap 5 with links for Bootstrap 4 and jQuery.
 
-I replaced the links, however, one problem remained - the links in the dropdown are aligned to the left, instead of being aligned to the right to be right under the hamburger icon. As this is controlled in JS, I was not able to fix it.
+I replaced the links, however, one problem remained - the links in the dropdown are aligned to the left, instead of being aligned to the right under the hamburger icon. As this is controlled in JS, I was not able to fix it.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -200,10 +204,10 @@ I replaced the links, however, one problem remained - the links in the dropdown 
 
 #### `Bootstrap framework`
 
-In general, [Bootstrap][bootstrap-url] proved to be a valuable tool for creating website. I found that I could still customize my design to make it my own, but the in-built classes sped up the work significantly. The biggest challenge lies in learning the different classes and how to combine them to achieve the desired effect. For that, I found it very helpful to watch various YouTube tutorial and code along line by line.
+In general, [Bootstrap][bootstrap-url] proved to be a valuable tool for creating a webpage. I found that I could still customize my design to make it my own, but the in-built classes sped up the work significantly. The biggest challenge lies in learning the different classes and how to combine them to achieve the desired effect. For that, I found it very helpful to watch various YouTube tutorial and code along line by line.
 
 #### `Design Tools`
-I feel that I still need to master [Figma][figma-url] and [Font Awesome][font-awesome-url] properly as well to really benefit from their features.
+I feel that I still need to master [Figma][figma-url] and [Font Awesome][font-awesome-url] properly to really benefit from their features.
 
 #### `Media Queries`
 I still had to use one `media query` to switch between _text links_ and _icon links_ in the **Contact** section when the webpage is displayed on a small screen size.
@@ -242,11 +246,12 @@ You can find the current portfolio webpage, its corresponding code, and the prev
 [js-url]: https://www.w3schools.com/js/default.asp
 
 [deployed-url]: https://icollier77.github.io/Bootstrap-Portfolio/
-[previous-url]: https://icollier77.github.io/inessa-collier-portfolio/#work 
+[previous-url]: https://icollier77.github.io/inessa-collier-portfolio/
 
 [deployed-gif]: assets/images/bootstrap-portfolio.gif
 [previous-gif]: assets/images/previous-portfolio.gif
 [previous-url]: https://icollier77.github.io/inessa-collier-portfolio/ 
+[previous-repo-url]: https://github.com/icollier77/inessa-collier-portfolio 
 
 [repo-url]: https://github.com/icollier77/Bootstrap-Portfolio
 
@@ -258,6 +263,7 @@ You can find the current portfolio webpage, its corresponding code, and the prev
 [bootcamp-url]: https://www.edx.org/boot-camps/coding/skills-bootcamp-in-front-end-web-development
 
 [figma-url]: https://figma.com
+[unsplash-url]: https://unsplash.com/
 
 
 [project6-url]: https://unsplash.com/photos/creativity-flowing-advertisement-SZgVZPbQ7RE
