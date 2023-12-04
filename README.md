@@ -227,6 +227,7 @@ The project is now live.
 
 ![Deployed page][deployed-gif]
 
+
 ### `Links to deployed project`
 
 You can find the current portfolio webpage, its corresponding code, and the previous portfolio webpage here:
@@ -248,7 +249,7 @@ You can find the current portfolio webpage, its corresponding code, and the prev
 [deployed-url]: https://icollier77.github.io/Bootstrap-Portfolio/
 [previous-url]: https://icollier77.github.io/inessa-collier-portfolio/
 
-[deployed-gif]: assets/images/bootstrap-portfolio.gif
+[deployed-gif]: assets/images/bootstrap-portfolio-lg.gif
 [previous-gif]: assets/images/previous-portfolio.gif
 [previous-url]: https://icollier77.github.io/inessa-collier-portfolio/ 
 [previous-repo-url]: https://github.com/icollier77/inessa-collier-portfolio 
