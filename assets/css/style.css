@@ -120,6 +120,23 @@ h5 {
     filter: brightness(0.9);
 }
 
+/* styling for About Me section */
+
+#about-main {
+    font-size: 1.5em;
+}
+
+.btn-custom {
+    background-color: var(--highlight-font-color);
+    color: var(--main-font-color);
+}
+
+.btn-custom:hover {
+    border: 2px solid var(--highlight-font-color);
+}
+
+
+
 /* card with the Jumbotron */
 .card-jumbo {
     background: none;
