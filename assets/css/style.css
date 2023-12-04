@@ -168,4 +168,13 @@ footer {
     #contact a {
         text-decoration: none;
     }
+
+    .nav-link {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .nav-link:hover::after {
+        opacity: 0;
+    }
 }
