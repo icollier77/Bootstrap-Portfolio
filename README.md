@@ -32,41 +32,37 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#mock-up">Mock-Up</a></li>
+        <li><a href="#project-goal">Project Goal</a></li>
+        <li><a href="#project-specifications">Project Specifications</a></li>
+        <li><a href="#previous-portfolio-webpage">Previous Portfolio Webpage</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#wireframe">Wireframe</a></li>
         <li><a href="#colour-palette">Colour Palette</a></li>
-          <ul>
-            <li><a href="#main-colour-palette">Main colour palette</a></li>
-            <li><a href="#accent-colours">Accent colours</a></li>
-            <li><a href="#font-colourfont-colour">Font colour</a></li>
-            <li><a href="#webpage-palette">Webpage palette</a></li>
-          </ul>
         <li><a href="#images">Images</a></li>
-          <ul>
-            <li><a href="#photos">Photos</a></li>
-            <li><a href="#icons">Icons</a></li>
-          </ul>
       </ul>
     </li>
     <li><a href="#development">Development</a></li>
       <ul>
-        <li><a href="#bootcamp-resources">Bootcamp Resources</a></li>
-        <li><a href="#other-sources">Other Sources</a></li>
+        <li><a href="#web-sources">Web Sources</a></li>
           <ul>
-            <li><a href="#line-animation">Line Animation</a></li>
-            <li><a href="#object-size-transformation">Object Size Transformation</a></li>
-            <li><a href="#box-shadow">Box Shadow</a></li>
-            <li><a href="#smooth-scrolling">Smooth Scrolling</a></li>
-            <li><a href="#href-on-images">Href on Images</a></li>
+            <li><a href="#navbar-on-scrolling">Navbar on Scrolling</a></li>
+            <li><a href="#vertical-card-alignment">Vertical Card Alignment</a></li>
+            <li><a href="#increase-card-size-on-hover">Increase Card Size on Hover</a></li>
+            <li><a href="#underline-navigation-links-on-hover">Underline navigation links on hover</a></li>
+            <li><a href="#font-awesome-icons">Font Awesome Icons</a></li>
           </ul>
+        <li><a href="#issues-with-javascrip">Issues with JavaScript</a></li>
       </ul>
     <li><a href="#project-takeaways">Project Takeaways</a></li>
+    <ul>
+            <li><a href="#bootstrap-framework">Bootstrap Framework</a></li>
+            <li><a href="#design-tools">Design Tools</a></li>
+            <li><a href="#media-queries">Media Queries</a></li>
+          </ul>
     <li><a href="#deployed-project">Deployed Project</a></li>
       <ul>
         <li><a href="#deployed-application">Deployed Application</a></li>
@@ -79,7 +75,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## `About The Project`
+
+### `Project Goal`
 The goal of this project is re-create my portfolio webpage using [Bootstrap][bootstrap-url] as I continue to progress through the [Front-End Web Development Bootcamp][bootcamp-url].
+
+### `Project Specifications`
 
 <p>The webpage recreated with Bootstrap should have the following:</p>
 <ol>
@@ -95,7 +95,7 @@ The goal of this project is re-create my portfolio webpage using [Bootstrap][boo
 </ol>
 </p>
 
-### `Previous portfolio webpage`
+### `Previous Portfolio Webpage`
 My previously deployed portfolio webpage looked like this:
 
 ![Previous portfolio][previous-gif]
@@ -155,15 +155,15 @@ I sourced free photos from [Unsplash][unsplash-url]. In addition to the images u
 The development using Bootstrap was much faster and more streamlined compared to the regular build. One of the biggest time savers was positioning of elements using margin and padding classes, as well as the flex layout using rows and columns. Thanks to this layout I spent significantly less time on the page responsiveness.
 
 
-### `Web sources for some code`
+### `Web sources`
 
 However, in some cases I turned to the web to find instructions on how to achieve certain outcomes.
 
-#### `Change navbar colour on scrolling`
+#### `Navbar on Scrolling`
 
 I was not sure how to make my navbar background turn dark when scrolling down the page. This [video][navbar-scroll-url] was very helpful.
 
-#### `Align cards vertically`
+#### `Vertical Card Alignment`
 
 Some of my project cards had longer description which caused the cards to have different heights. I found how to correct this [here][align-cards-url].
 
@@ -180,6 +180,16 @@ Finally, I thought it would be nice to have underlining effect on hover for the 
 During my previous project I had sourced icons from the web but was not entirely happy with their look. For this project I used [Font Awesome][font-awesome-url] icons. However, instead of downloading the whole kit, I used [Font Awesome CDN][fa-cdn-url] and placed the corresponding link in the html head. Watching this [video][fa-icons-url] was very helpful in refreshing my memory on Font Awesome.
 
 
+### `Issues with JS script`
+I ran into a problem with the JavaScript which caused the hamburger navbar (on small screens) did not have a dropdown menu with the navigation links. 
+
+After making sure I have the latest link to Bootstrap 5 and correct JS links in the bottom of the file, and checking my html code, I contacted a learning assistant via AskBCS (ticket ask-293001). 
+
+The assistant checked my code on his machine and was able to identify that the JS links were not working as supposed to. S/he recommended that I replace the JS links for Bootstrap 5 with links for Bootstrap 4 and jQuery.
+
+I replaced the links, however, one problem remained - the links in the dropdown are aligned to the left, instead of being aligned to the right to be right under the hamburger icon. As this is controlled in JS, I was not able to fix it.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -188,13 +198,17 @@ During my previous project I had sourced icons from the web but was not entirely
 <!-- TAKEAWAYS -->
 ## `Project Takeaways`
 
+#### `Bootstrap framework`
+
 In general, [Bootstrap][bootstrap-url] proved to be a valuable tool for creating website. I found that I could still customize my design to make it my own, but the in-built classes sped up the work significantly. The biggest challenge lies in learning the different classes and how to combine them to achieve the desired effect. For that, I found it very helpful to watch various YouTube tutorial and code along line by line.
-<br>
-<br>
+
+#### `Design Tools`
 I feel that I still need to master [Figma][figma-url] and [Font Awesome][font-awesome-url] properly as well to really benefit from their features.
-<br>
-<br>
+
+#### `Media Queries`
 I still had to use one `media query` to switch between _text links_ and _icon links_ in the **Contact** section when the webpage is displayed on a small screen size.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
