@@ -74,8 +74,8 @@ h5 {
 
 /* start of customization for this file */
 .customNav {
-    position: fixed;
-    width: 100%;
+    /* position: fixed; */
+    /* width: 100%; */
     /* background: url("../images/transparency.png"); */
     /* background-color: transparent !important; */
     /* background-size: cover; */
@@ -96,6 +96,17 @@ h5 {
     
 }
 
+/* custom settings to make navbar turn dark when scrolled */
+/* code from https://www.youtube.com/watch?v=z70GTU3p72I */
+.navbar {
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: var(--main-bk-color);
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.15);
+}
+
 /* Jumbotron  */
 .darkSphere {
     background-image: url(../images/dark-sphere-small.jpg);
@@ -105,17 +116,13 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    z-index: -1;
+    filter: brightness(0.9);
 }
 
-  * Jumbotron copy */
-.jumboCopy {
-width: 70%;
-min-width: 500px;
-max-width: 700px;
-color: white;
-text-align: center;
+/* card with the Jumbotron */
+.card-jumbo {
+    background: none;
 }
 
 .projectCard {

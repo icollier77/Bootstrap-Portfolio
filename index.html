@@ -19,9 +19,9 @@
         <!-- NAVIGATION BAR -->
         <!-- navigation menu at the top -->
         <!-- Links should navigate to the appropriate sections -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top z-10 customNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top z-10 customNav">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">
+                <a class="navbar-brand mx-3 text-white" href="#">
                     <h1>Inessa Collier</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,12 +53,12 @@
                 <div class="container">
                 <!-- my photo -->
                 <div class="row mt-5">
-                    <div class="card rounded-circle mx-0 mt-5" style="width: 18rem">
-                        <img class="card-img rounded-circle" src="assets/images/my-photo-2.png">
-                    </div>
-                    <div class="container-fluid py-5 jumboCopy">
-                        <p class="col-md-12 fs-4 text-white">Click below to get in touch</p>
-                        <button class="btn btn-outline-light btn-lg" type="button">Contact me</button>
+                    <div class="card card-jumbo" style="width: 18rem">
+                        <img class="card-img rounded-circle section" src="assets/images/my-photo-2.png">
+                        <div class="card-body justify-content-center">
+                            <p class="col-md-12 fs-4 text-white text-center">Web Developer</p>
+                        </div>
+                        <a class="btn btn-outline-light btn-lg" type="button" href="mailto:inessa.collier@gmail.com" target="_blank">Contact me</a>
                     </div>
                 </div>
                 </div>
@@ -73,8 +73,21 @@
             <p id="about-addl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas quo voluptatibus provident veritatis itaque, ipsum quam iure ullam eius, totam omnis, laborum iusto dolorem sit aliquam et vel expedita!
             Aut perspiciatis excepturi rem tempora sapiente minima. Cupiditate illo est adipisci assumenda libero provident, aspernatur ab corporis molestiae quae illum repellendus, tenetur culpa esse facilis aliquid necessitatibus itaque quis dolorem.</p>
             <!-- <p>add second paragraph</p> -->
+        <!-- LEARN MORE toggle section -->
+        <div class="container my-5 section">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target=".row" aria-expanded="false" aria-controls="row">Learn More</button>
+
+            <div class="row collapse my-3" id="row">
+                <div class="col">
+                    Here you can learn more about my work
+                </div>
+            </div>
+        </div>
+        <!-- end Learn More section -->
+
         </div>
         <!-- end About Me -->
+
 
         <!-- WORK SECTION -->
         <!-- displays in grid, a card for each project, brief description, link -->
@@ -174,30 +187,23 @@
         </div>
         <!-- end Skills -->
 
-
-
+       
         
+        <!-- CONTACT section -->
         <div class="container section">
             <h2>Contact</h2>
-            <ul class="contact-links" id="contactText">
-                <li><a href="mailto:inessa.collier@gmail.com" target="_blank">Email</a></li>
-                <li><a href="https://www.linkedin.com/in/inessacollier/" target="_blank">LinkedIn</a></li>
-                <li><a href=" https://github.com/icollier77" target="_blank">GitHub</a></li>
-            </ul>
-            <ul class="contact-links" id="contactIcons">
-                <li><a href="mailto:inessa.collier@gmail.com" target="_blank"><img src="starter/images/email-14-32.png" alt="email me"></a></li>
-                <li><a href="https://www.linkedin.com/in/inessacollier/" target="_blank"><img src="starter/images/linkedin-4-32.png" alt="LinkedIn"></a></li>
-                <li><a href="https://github.com/icollier77 " target="_blank"><img src="starter/images/github-10-32.png" alt="github"></a></li>
+            <div class="row contact-links" id="contactText">
+                <a href="mailto:inessa.collier@gmail.com" target="_blank">Email</a>
+                <a href="https://www.linkedin.com/in/inessacollier/" target="_blank">LinkedIn</a>
+                <a href=" https://github.com/icollier77" target="_blank">GitHub</a>
+            </div>
+            <!-- <ul class="contact-links" id="contactIcons"> -->
+                <!-- <li><a href="mailto:inessa.collier@gmail.com" target="_blank"><img src="starter/images/email-14-32.png" alt="email me"></a></li> -->
+                <!-- <li><a href="https://www.linkedin.com/in/inessacollier/" target="_blank"><img src="starter/images/linkedin-4-32.png" alt="LinkedIn"></a></li> -->
+                <!-- <li><a href="https://github.com/icollier77 " target="_blank"><img src="starter/images/github-10-32.png" alt="github"></a></li> -->
             </ul>
         </div>
-
-
-        <!-- CONTACT ME section -->
-
-
-
-
-
+        <!-- end Contact section -->
 
 
         <!-- FOOTER SECTION -->
@@ -210,5 +216,21 @@
         <!-- Popper.js, then Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+        <!-- Script to enable dark navbar when scrolling -->
+        <!-- code from https://www.youtube.com/watch?v=z70GTU3p72I -->
+        <script>
+            const navEl = document.querySelector('.navbar')
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 76) {
+                    navEl.classList.add('navbar-scrolled');
+                } 
+                else if (window.scrollY <= 76) {
+                    navEl.classList.remove('navbar-scrolled');
+                }
+            })
+        </script>
+        <!-- end dark nav script -->
     </body>
 </html>
