@@ -164,6 +164,20 @@ h5 {
     background-color: var(--hover-link);
 }
 
+/* Style for button-links in Contact Me section */
+.btn-link-custom {
+    color: var(--highlight-font-color);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 1px auto;
+}
+
+.btn-link-custom:hover {
+    cursor: pointer;
+    background-color: var(--highlight-font-color);
+    color: var(--main-font-color);
+    box-shadow: 1px 1px 10px var(--highlight-font-color);
+}
 
 /* Media query for xs screen size */
 /* this code does not work */
