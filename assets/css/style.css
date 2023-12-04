@@ -144,13 +144,30 @@ h5 {
     /* padding: 0; */
 }
 
+/* make cards increase on hover */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 20px grey;
+}
+
 .projectCard {
     border: 1px solid lightgrey;
 }
 
 .skills {
     /* color: var(--main-bk-color); */
-    color: var(--main-font-color);
+    color: var(--main-font-color)05
     /* background-color: var(--main-bk-color); */
     background-color: var(--highlight-font-color);
+}
+
+
+/* Media query for xs screen size */
+@media only screen and (max-width: 576px) {
+
 }
