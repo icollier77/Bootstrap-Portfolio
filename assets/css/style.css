@@ -121,7 +121,8 @@ body {
 .skills {
     color: var(--main-font-color);
     font-size: 1em;
-    margin: 2px;
+    margin: 5px;
+    padding: 7px;
     background-color: var(--hover-link);
 }
 
