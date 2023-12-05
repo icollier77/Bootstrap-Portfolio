@@ -225,6 +225,8 @@ The project is now live.
 
 ### `Deployed application`
 
+The deployed page looks like this:
+
 ![Deployed page][deployed-gif]
 
 
