@@ -195,6 +195,8 @@ I replaced the links, however, one problem remained - the links in the dropdown 
 
 Also a nice button that opened an additional '**Learn more**' section stopped working with Bootstrap 4, so I had to block it out in the html code.
 
+However, after discussing it with Laura, my teacher in the Bootcamp, she pointed out that I was missing `bs` in the `data-bs-toggle` and `data-bs-target` on line 28 of my html. Fixing these classes fixed the issue with the hamburger dropdown, and I was able to revert to my original webpage version.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
