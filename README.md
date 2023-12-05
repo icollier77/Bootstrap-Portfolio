@@ -193,6 +193,8 @@ The assistant checked my code on their machine and was able to identify that the
 
 I replaced the links, however, one problem remained - the links in the dropdown are aligned to the left, instead of being aligned to the right under the hamburger icon. As this is controlled in JS, I was not able to fix it.
 
+Also a nice button that opened an additional '**Learn more**' section stopped working with Bootstrap 4, so I had to block it out in the html code.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
