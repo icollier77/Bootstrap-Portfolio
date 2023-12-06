@@ -178,3 +178,18 @@ footer {
         opacity: 0;
     }
 }
+
+/* media query to center the jumbotron card on xsmall screens */
+@media only screen and (max-width: 575px) {
+    .card-jumbo {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .projectCard {
+        width: 80%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        background-color: var(--secondary-bk-color);
+    }
+}
