@@ -195,7 +195,7 @@ I replaced the links, however, one problem remained - the links in the dropdown 
 
 Also a nice button that opened an additional '**Learn more**' section stopped working with Bootstrap 4, so I had to block it out in the html code.
 
-However, after discussing it with Laura, my teacher in the Bootcamp, she pointed out that I was missing `bs` in the `data-bs-toggle` and `data-bs-target` on line 28 of my html. Fixing these classes fixed the issue with the hamburger dropdown, and I was able to revert to my original webpage version.
+However, after discussing it with [Laura][laura-url], my teacher in the Bootcamp, she pointed out that I was missing `bs` in the `data-bs-toggle` and `data-bs-target` on line 28 of my html. Fixing these classes fixed the issue with the hamburger dropdown, and I was able to revert to my original webpage version.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -287,3 +287,4 @@ You can find the current portfolio webpage, its corresponding code, and the prev
 [font-awesome-url]: https://fontawesome.com/
 [fa-cdn-url]: https://cdnjs.com/libraries/font-awesome 
 
+[laura-url]: https://github.com/LauraCole1900
