@@ -214,7 +214,9 @@ In general, [Bootstrap][bootstrap-url] proved to be a valuable tool for creating
 I feel that I still need to master [Figma][figma-url] and [Font Awesome][font-awesome-url] properly to really benefit from their features.
 
 #### `Media Queries`
-I still had to use one `media query` to switch between _text links_ and _icon links_ in the **Contact** section when the webpage is displayed on a small screen size.
+I still had to use two `media queries`: 
+1. to switch between _text links_ and _icon links_ in the **Contact** section when the webpage is displayed on a small screen size (less than 768px);
+2. to center the _jumbotron card_ and to resize the _project cards_ when displayed on extra-small screen (less than 576px) as Bootstrap 5 does not have an **xs** breakpoint.
 
 
 
